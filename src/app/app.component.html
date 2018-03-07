@@ -1,0 +1,70 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<header>
+	<div class="container">
+		<nav class="nav just-spacebw">
+			<a class="nav-link" href="#">Home</a>
+			<a class="nav-link" href="#">Product</a>
+			<a class="nav-link" href="#"><i class="material-icons">shopping_cart</i> <span class="badge notification-badge"> {{addtocart}}</span></a>
+		</nav>
+	</div>
+
+
+</header>
+<div class="container">
+	<div class="row">
+
+		<div class="col-md-4">
+			<div class="products">
+				<img src="https://article.images.consumerreports.org/prod/content/dam/cro/news_articles/appliances/CalphalonXL_Blender_Fullsize"
+				 class="img-thumbnail product-image">
+			</div>
+		</div>
+		<div class="col-md-8">
+
+
+			<div class="input-group">
+				<input type="text" class="form-control" value="{{counter}}" aria-label="0">
+				<div class="input-group-append">
+					<button type="button" class="btn btn-light" (click)="increment()"><i class="material-icons">add</i></button>
+					<button type="button" class="btn btn-light" (click)="decrement()"><i class="material-icons">remove</i></button>
+					<button type="button" class="btn btn-light" (click)="reset()"><i class="material-icons">refresh</i></button>
+				</div>
+			</div>
+
+			<div class="addtoCart">
+				<button type="button" class="btn btn-light" (click)="addToCart()">Add to Cart</button>
+
+			</div>
+
+
+		</div>
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-4">
+			<div class="products">
+				<img src="https://article.images.consumerreports.org/prod/content/dam/cro/news_articles/appliances/CalphalonXL_Blender_Fullsize"
+				 class="img-thumbnail product-image">
+			</div>
+		</div>
+		<div class="col-md-8">
+
+
+			<div class="input-group">
+				<input type="text" class="form-control" value="{{counter}}" aria-label="0">
+				<div class="input-group-append">
+					<button type="button" class="btn btn-light" (click)="increment()"><i class="material-icons">add</i></button>
+					<button type="button" class="btn btn-light" (click)="decrement()"><i class="material-icons">remove</i></button>
+					<button type="button" class="btn btn-light" (click)="reset()"><i class="material-icons">refresh</i></button>
+				</div>
+			</div>
+
+			<div class="addtoCart">
+					<button type="button" class="btn btn-light" (click)="addToCart()">Add to Cart</button>
+			</div>
+
+
+		</div>
+	</div>
+</div>
